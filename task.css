@@ -1,0 +1,96 @@
+body{
+    background-color: blue;
+}
+
+
+
+.boxes{
+
+  border: 1px solid black;
+   height: 600px;
+   width: 1200px;
+   margin-left:300px;
+   margin-top: 100px;
+   background-color:deepskyblue;
+   border-radius: 25px;
+   display: flex;
+   flex-direction: row;
+   
+   
+   
+
+}
+
+.jpp{
+    
+    height: 400px;
+    width: 450px;
+    margin-bottom: 250px;
+    margin-top: 90px;
+    border-radius: 15px;
+    
+    
+    
+    
+
+}
+
+
+.log{
+    
+    height: 400px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+.mail{
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color:rgb(145, 145, 145);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.pass{
+
+    height: 40px;
+    width: 300px;
+     padding-left: 20px;
+     margin-top: 10px;
+      border-radius: 10px;
+      background-color:rgb(145, 145, 145);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+
+}
+
+.forget{
+
+    padding-left: 230px;
+}
+
+
+
+.logs{
+
+    height: 50px;
+    width: 180px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+
+   
+}
+
+.top{
+
+    color: blue;
+}

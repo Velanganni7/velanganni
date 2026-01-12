@@ -1,0 +1,76 @@
+.mood-manager {
+  padding: 30px;
+  background: #0b0f0c;
+  color: white;
+  min-height: 100vh;
+}
+
+.mood-form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.mood-form input,
+.mood-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.mood-form button {
+  background: #1aff64;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mood-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.mood-card {
+  background: #13241b;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.song-manager {
+  margin-top: 40px;
+  background: #13241b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.song-manager select {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.song-manager ul {
+  list-style: none;
+  padding: 0;
+}
+
+.song-manager li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
